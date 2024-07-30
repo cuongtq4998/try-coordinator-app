@@ -5,8 +5,6 @@
 //  Created by TQC on 7/25/24.
 //
 
-import Combine
-
 final class SplashScreenViewModel {
     private let rootCoordinator: AppCoordinator
     init(rootCoordinator: AppCoordinator) {
@@ -16,4 +14,5 @@ final class SplashScreenViewModel {
     func didFinish() {
         rootCoordinator.login()
     }
+    
 }
